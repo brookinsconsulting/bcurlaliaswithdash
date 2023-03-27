@@ -151,6 +151,9 @@ Usage
 The solution is configured to work virtually by default once properly installed.
 
 Note: Once installed. Clear caches and run the bin/php/updateniceurls.php script to convert to urls with dash separators.
+Note: This solution depends on the setting, '[URLTranslator] TransformationGroup=urlalias_compat' in site.ini.append.php
+Note: In some installations after runing the above script republishing of all nodes in content tree was required. This was done via the admin in less than 10min.
+
 
 
 Troubleshooting
